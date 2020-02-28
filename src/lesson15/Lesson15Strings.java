@@ -3,6 +3,8 @@ package lesson15;
 import java.util.Arrays;
 import java.util.List;
 
+//Hello from develop1.0
+
 public class Lesson15Strings {
 
     public static void main(String[] args) {
