@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="972527e8-bf69-40d5-8324-7f4c54700208" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WzDdUiohw7PwS8KKiLbly6giZ0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lesson9" />
+      <recent name="Lesson5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SingeltonMain">
+    <configuration name="Kids" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticsFromBooks.Kids" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticsFromBooks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson3_HW" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.Lesson3_HW" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Lesson6" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6_HW" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Lesson6_HW" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson7" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.Lesson7" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson7_HW_Q7" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.Lesson7_HW_Q7" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson9ObsMAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9Observer.Lesson9ObsMAIN" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson9Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingeltonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9Singelton.SingeltonMain" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson9Singelton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SingeltonMain" />
+        <item itemvalue="Application.Lesson9ObsMAIN" />
+        <item itemvalue="Application.Kids" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="972527e8-bf69-40d5-8324-7f4c54700208" name="Default Changelist" comment="" />
+      <created>1580143616624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580143616624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="31" key="#Menus_and_Toolbars" timestamp="1580479731468">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="31" key="#Menus_and_Toolbars/0.0.1366.738@0.0.1366.738" timestamp="1580479731468" />
+    <state x="413" y="127" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581354224571">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="127" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1581354224571" />
+    <state x="457" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1581358071061">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="457" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1581337760680" />
+    <state x="457" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1581358071061" />
+    <state x="413" y="150" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581357715284">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="150" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1581357715284" />
+    <state x="484" y="261" width="398" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580318581813">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="484" y="261" width="398" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1580318581813" />
+    <state x="484" y="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581357716555">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="484" y="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1581357716555" />
+    <state x="392" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581346843204">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1581346843204" />
+    <state x="438" y="78" key="#xdebugger.evaluate" timestamp="1581362186952">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="438" y="78" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1581362186952" />
+    <state x="445" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580664538397">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="445" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1580664538397" />
+    <state width="395" height="466" key="DebuggerActiveHint" timestamp="1580149749434">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="395" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1580149749434" />
+    <state x="463" y="127" key="FileChooserDialogImpl" timestamp="1581093237056">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580303684733" />
+    <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581093237056" />
+    <state width="1323" height="249" key="GridCell.Tab.0.bottom" timestamp="1581403100026">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385928" />
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580726456548" />
+    <state width="1323" height="249" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581403100026" />
+    <state width="1323" height="249" key="GridCell.Tab.0.center" timestamp="1581403100026">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385927" />
+    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580726456548" />
+    <state width="1323" height="249" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581403100026" />
+    <state width="1323" height="249" key="GridCell.Tab.0.left" timestamp="1581403100026">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385927" />
+    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580726456548" />
+    <state width="1323" height="249" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581403100026" />
+    <state width="1323" height="249" key="GridCell.Tab.0.right" timestamp="1581403100026">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385928" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580726456548" />
+    <state width="1323" height="249" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581403100026" />
+    <state width="1323" height="234" key="GridCell.Tab.1.bottom" timestamp="1581403100018">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.bottom/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385929" />
+    <state width="1323" height="218" key="GridCell.Tab.1.bottom/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580209558905" />
+    <state width="1323" height="234" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581403100018" />
+    <state width="1323" height="234" key="GridCell.Tab.1.center" timestamp="1581403100018">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.center/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385928" />
+    <state width="1323" height="218" key="GridCell.Tab.1.center/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580209558904" />
+    <state width="1323" height="234" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1581403100018" />
+    <state width="1323" height="234" key="GridCell.Tab.1.left" timestamp="1581403100018">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.left/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385928" />
+    <state width="1323" height="218" key="GridCell.Tab.1.left/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580209558904" />
+    <state width="1323" height="234" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1581403100018" />
+    <state width="1323" height="234" key="GridCell.Tab.1.right" timestamp="1581403100018">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1877" height="412" key="GridCell.Tab.1.right/0.0.1366.738/-1920.-323.1920.1050@-1920.-323.1920.1050" timestamp="1580731385928" />
+    <state width="1323" height="218" key="GridCell.Tab.1.right/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580209558905" />
+    <state width="1323" height="234" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1581403100018" />
+    <state x="186" y="15" key="SettingsEditor" timestamp="1580757506484">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="15" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580757506484" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1580725424430">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/-1920.-323.1920.1050@0.0.1366.738" timestamp="1580725424430" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1580588123769" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581358887269">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1581358887269" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../OlegLekcii/Lesson3.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticsFromBooks/Kids.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson9Observer/MeteoSation.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaCourse$SingeltonMain.ic" NAME="SingeltonMain Coverage Results" MODIFIED="1581361506990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lesson9Singelton.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaCourse$Kids.ic" NAME="Kids Coverage Results" MODIFIED="1580997154228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PracticsFromBooks.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
