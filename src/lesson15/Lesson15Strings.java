@@ -11,7 +11,7 @@ public class Lesson15Strings {
         System.out.println(string1 == string2); // sravnivaet ss6lki na object6 i napechatet FALSE
         System.out.println(string1.compareTo(string2)); // sravnivaet i kakaja iz nih bolshe. Sopostavit po simvolam i dline i v6vedt chisli -, 0 ili +
         System.out.println(string1.equals(string2)); // sravnevaet sodershimoe
-
+// Commit from local
         System.out.println("*****************************************************");
 
         String string11 = new String("AAAb");
