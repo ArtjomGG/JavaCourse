@@ -92,7 +92,6 @@ public class Lesson15Strings {
         System.out.println("/////");
 
         listStr.stream().map(w -> w.length()).forEach(System.out::println);
-        System.out.println("/////");
         listStr.stream().map(String::length).forEach(System.out::println);
 
 
@@ -139,7 +138,7 @@ public class Lesson15Strings {
                 .map(String::toLowerCase)
                 .forEach(System.out::println);
 
-        System.out.println("Contains T to UPPER **************************");
+        System.out.println("contains T to UPPER **************************");
 
         listSentence.stream().filter(w -> w.contains("t"))
                 .map(String::toUpperCase)
@@ -149,6 +148,9 @@ public class Lesson15Strings {
         System.out.println(replacer("Hello : Who are you : .... ::: "));
         findSMTH("Me and You", "and");
         findWordsStarEndsSameChar("Abba, mamma, amma", "a");
+
+        System.out.println("Git Try*****************************************************");
+
 
     }
 
