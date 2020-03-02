@@ -10,28 +10,42 @@ public abstract class L8Cars {
     private L8CarState carState;
     private LocalDate prodyceDate;
 
+    private void brandChek (String message) {
+        if (brand.equals("BMW")) {
+            IllegalArgumentException exception = new  IllegalArgumentException();
+            throw exception;
+        }
+        if (brand.equals("TOYOTA")) {
+            IllegalArgumentException exception = new  IllegalArgumentException();
+            System.out.println(message);
+            throw exception;
+        }
+    }
+
+    private void ageChek (String message) {
+        if (age < 1990) {
+            IllegalArgumentException exception = new  IllegalArgumentException();
+            System.out.println(message);
+            throw exception;
+        }
+    }
+
+    private void stateChek (String message) {
+        if (carState == L8CarState.XLAM) {
+            IllegalArgumentException exception = new IllegalArgumentException ();
+            System.out.println(message);
+            throw exception;
+        }
+    }
+
     public L8Cars(String type, String brand, int age, L8CarState carState) {
         this.type = type;
         this.brand = brand;
-        if (brand == "BMW") {
-            IllegalArgumentException exception = new  IllegalArgumentException("wrong Brand!!!");
-            throw exception;
-        }
-        if (brand == "TOYOTA") {
-            IllegalArgumentException exception = new  IllegalArgumentException("wrong Brand!!!");
-            throw exception;
-        }
         this.age = age;
-        if (age < 1990) {
-            IllegalArgumentException exception = new  IllegalArgumentException("wrong Age!!!");
-            throw exception;
-        }
         this.carState = carState;
-        if (carState == L8CarState.XLAM) {
-            IllegalArgumentException exception = new IllegalArgumentException ("Wrong State!!!");
-            throw exception;
-        }
-
+        stateChek("Wrong STATE!!!");
+        ageChek("Wrong AGE!!!");
+        brandChek("Wrong Brand!!!");
     }
 
     public L8Cars(String brand, LocalDate prodyceDate) {
@@ -53,14 +67,7 @@ public abstract class L8Cars {
 
     public void setBrand(String brand) {
         this.brand = brand;
-        if (brand == "BMW") {
-            IllegalArgumentException exception = new  IllegalArgumentException("wrong Brand!!!");
-            throw exception;
-        }
-        if (brand == "TOYOTA") {
-            IllegalArgumentException exception = new  IllegalArgumentException("wrong Brand!!!");
-            throw exception;
-        }
+        brandChek("Wrong Brand!!!");
     }
 
     public int getAge() {
@@ -69,10 +76,8 @@ public abstract class L8Cars {
 
     public void setAge(int age) throws Exception {
         this.age = age;
-        if (age < 1990) {
-            IllegalArgumentException exception = new  IllegalArgumentException("wrong Age!!!");
-            throw exception;
-        }
+
+        ageChek("Wrong AGE!!!");
     }
 
     public L8CarState getCarState() {
@@ -81,10 +86,7 @@ public abstract class L8Cars {
 
     public void setCarState(L8CarState carState) {
         this.carState = carState;
-        if (carState == L8CarState.XLAM) {
-            IllegalArgumentException exception = new IllegalArgumentException ("Wrong State!!!");
-            throw exception;
-        }
+        stateChek("Wrong STATE!!!");
     }
 
     public LocalDate getProdyceDate() {

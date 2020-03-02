@@ -124,7 +124,7 @@ public class Lesson17Exeptions {
 
         System.out.println("Hello from lesson ...17...");
 
-        L8Cars carForExeption = new L8PassCars("Pass", "Ford", 1980, L8CarState.XLAM, 5);
+        L8Cars carForExeption = new L8PassCars("Pass", "BMW", 1980, L8CarState.XLAM, 5);
 
         System.out.println(carForExeption);
     }
