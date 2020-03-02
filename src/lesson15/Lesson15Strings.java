@@ -215,8 +215,6 @@ public class Lesson15Strings {
 
 
 
-//git config --global user.email "artjom.gg@gmail.com"
-//git config --global user.name "ArtjomGG"
 
 
 
