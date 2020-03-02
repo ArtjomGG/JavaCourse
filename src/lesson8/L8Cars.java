@@ -32,7 +32,6 @@ public abstract class L8Cars {
             throw exception;
         }
 
-
     }
 
     public L8Cars(String brand, LocalDate prodyceDate) {
