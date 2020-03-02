@@ -152,8 +152,8 @@ public class Lesson15Strings {
 
         System.out.println(changerForSentence("Hello : Who are you : .... ::: "));
         System.out.println(replacer("Hello : Who are you : .... ::: "));
-        findSMTH("Me and You", "and");
-        findWordsStarEndsSameChar("Abba, mamma, amma", "a");
+        findSMTH("Me and You", "You");
+        wordStartEnds("baba nam kevalam babab", "b");
 
     }
 
@@ -172,20 +172,51 @@ public class Lesson15Strings {
         return Arrays.asList(split);
     }
 
+    /* 3. Assume that we have sentence, which contains "(" and ")".
+        Print out content that enclosed in brackets.*/
+
     public static void findSMTH(String stringForFind, String needTofind) {
         boolean findInSentence = stringForFind.contains(needTofind);
-        System.out.println(findInSentence);
+        System.out.println("Need to find " + needTofind + " " + findInSentence);
     }
 
-    public static void findWordsStarEndsSameChar (String stringForFind, String lookUp) {
-        String setanceTowords = stringForFind;
-        boolean findSameStartEnd = stringForFind.startsWith(lookUp)&stringForFind.endsWith(lookUp);
-        System.out.println(findSameStartEnd);
+    /*  4. Assume that we have sentence, print out words that start and end
+           from the same letter.*/
+
+
+    public static boolean wordStartEnds(String stringForStartEndsSame, String lookUp) {
+        spliterator(stringForStartEndsSame, " ");
+        System.out.println(Arrays.asList(stringForStartEndsSame));
+        System.out.println(Arrays.asList(stringForStartEndsSame.length()));
+
+        boolean findSameStartEnd = stringForStartEndsSame.startsWith(lookUp) & stringForStartEndsSame.endsWith(lookUp);
+        if (findSameStartEnd) { // TODO: kak zapisat' koroche?
+            System.out.println(findSameStartEnd); // TODO: KAK dobavit' chtob6 v]vodil slovo?
+            System.out.println(stringForStartEndsSame.startsWith(lookUp));
+        } else {
+            System.out.println("none");
+        }
+        return findSameStartEnd;
     }
 
 
-    //git config --global user.email "artjom.gg@gmail.com"
-    //git config --global user.name "ArtjomGG"
+    /* 1. Assume that we have sentence, find and print the longest and shortest words.
+       2. Assume we have a sentence, calculate the number of some symbol that comes from method parameter in the last word.*/
+
+    /*public static void findMaxAndMinWord(String stringForMaxAndMinWord) {
+        spliterator(stringForMaxAndMinWord, " ");
+        String
+
+    }*/
 
 }
+
+
+
+
+
+//git config --global user.email "artjom.gg@gmail.com"
+//git config --global user.name "ArtjomGG"
+
+
 
