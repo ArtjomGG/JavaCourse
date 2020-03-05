@@ -4,6 +4,10 @@ import java.time.LocalDate;
 
 public class L8PassCars extends L8Cars {
 
+    private void secretMetodForLesson117() {
+        System.out.println("Tsssss.....");
+    };
+
     private int passengers;
 
     public L8PassCars(String type, String brand, int age, L8CarState carState, int passengers) {

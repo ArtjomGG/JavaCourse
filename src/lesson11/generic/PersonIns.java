@@ -3,11 +3,55 @@ package lesson11.generic;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public abstract class PersonIns implements Comparable<PersonIns>{
+public abstract class PersonIns implements Comparable<PersonIns> {
+
     private String name;
     private Integer age;
     private String secondName;
     private LocalDate birthday;
+    private String crimeStatus;
+    private Integer ageForExeption;
+
+    private String randCrim() {
+        String criminal = "criminal";
+        String notCriminal = "not criminal";
+        String areCrim;
+        double randomOrigin = Math.random();
+        int random = (int) (randomOrigin * 10 + 1);
+        if (random == 3) {
+            areCrim = criminal;
+        } else if (random == 6) {
+            areCrim = criminal;
+        } else {
+            areCrim = notCriminal;
+        }
+        return areCrim;
+    }
+
+    private void ageChek(String message) {
+        if (ageForExeption < 18) {
+            IllegalArgumentException exception = new IllegalArgumentException();
+            System.out.println(message);
+            throw exception;
+        }
+    }
+
+    private void crimeChek(String message) {
+        if (crimeStatus.equals("criminal")) {
+            IllegalArgumentException exception = new IllegalArgumentException();
+            System.out.println(message);
+            throw exception;
+        }
+    }
+
+    public PersonIns(String name, String crimeStatus, Integer ageForExeption) {
+        this.name = name;
+        this.crimeStatus = randCrim();
+        this.ageForExeption = ageForExeption;
+        crimeChek("Person are criminal!!!");
+        ageChek("Too young!!!");
+
+    }
 
     public PersonIns(String name, Integer age) {
         this.name = name;
@@ -57,9 +101,25 @@ public abstract class PersonIns implements Comparable<PersonIns>{
         this.birthday = birthday;
     }
 
+    public Integer getAgeForExeption() {
+        return ageForExeption;
+    }
+
+    public void setAgeForExeption(Integer ageForExeption) {
+        this.ageForExeption = ageForExeption;
+    }
+
+    public String getCrimeStatus() {
+        return crimeStatus;
+    }
+
+    public void setCrimeStatus(String crimeStatus) {
+        this.crimeStatus = crimeStatus;
+    }
+
     @Override
     public int compareTo(PersonIns o) {
-        return this.age-o.getAge();
+        return this.age - o.getAge();
     }
 
     @Override

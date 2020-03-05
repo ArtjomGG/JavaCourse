@@ -1,5 +1,8 @@
 package lesson17;
 
+import lesson11.generic.CitizenIns;
+import lesson11.generic.EmployeeIns;
+import lesson11.generic.PersonIns;
 import lesson8.L8CarState;
 import lesson8.L8Cars;
 import lesson8.L8PassCars;
@@ -102,8 +105,6 @@ public class Lesson17Exeptions {
 
             }*/
 
-
-
         try (
                 Closeable myResors = () -> System.out.println("Hello from  Closeable");
                 BufferedReader reader = new BufferedReader(new FileReader("c://t.txt"))
@@ -124,9 +125,11 @@ public class Lesson17Exeptions {
 
         System.out.println("Hello from lesson ...17...");
 
-        L8Cars carForExeption = new L8PassCars("Pass", "BMW", 1980, L8CarState.XLAM, 5);
+        //L8Cars carForExeption = new L8PassCars("Pass", "BMW", 1980, L8CarState.XLAM, 5);
+        PersonIns ivan = new EmployeeIns("Ivan"," ", 17);
 
-        System.out.println(carForExeption);
+        //System.out.println(carForExeption);
+        System.out.println(ivan);
     }
 }
 

@@ -1,7 +1,9 @@
 package lesson15;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 //Hello from develop1.0
 
@@ -153,7 +155,8 @@ public class Lesson15Strings {
         System.out.println(changerForSentence("Hello : Who are you : .... ::: "));
         System.out.println(replacer("Hello : Who are you : .... ::: "));
         findSMTH("Me and You", "You");
-        wordStartEnds("baba nam kevalam babab", "b");
+        wordStartEnds("baba bamb amma baba", "b");
+        findMaxAndMinWord("Foooooo Fighters good");
 
     }
 
@@ -176,38 +179,54 @@ public class Lesson15Strings {
         Print out content that enclosed in brackets.*/
 
     public static void findSMTH(String stringForFind, String needTofind) {
-        boolean findInSentence = stringForFind.contains(needTofind);
-        System.out.println("Need to find " + needTofind + " " + findInSentence);
+        
+        List <String> listSentence = spliterator(stringForFind, " ");
+
+        boolean findInSentence = listSentence.contains(needTofind);
+        System.out.println("Need to find: " + "\"" + needTofind + "\"" + " " + findInSentence);
     }
 
     /*  4. Assume that we have sentence, print out words that start and end
            from the same letter.*/
 
 
-    public static boolean wordStartEnds(String stringForStartEndsSame, String lookUp) {
-        spliterator(stringForStartEndsSame, " ");
-        System.out.println(Arrays.asList(stringForStartEndsSame));
-        System.out.println(Arrays.asList(stringForStartEndsSame.length()));
+    public static void wordStartEnds(String stringForStartEndsSame, String lookUp) {
+        String[] splitSentence = stringForStartEndsSame.split(" ");
+        List<String> listSentence = Arrays.asList(splitSentence);
 
-        boolean findSameStartEnd = stringForStartEndsSame.startsWith(lookUp) & stringForStartEndsSame.endsWith(lookUp);
-        if (findSameStartEnd) { // TODO: kak zapisat' koroche?
+        System.out.println(Arrays.asList(listSentence));
+        System.out.println(Arrays.asList(listSentence.size()));
+
+        listSentence.stream().filter(w1 -> w1.startsWith(lookUp) & w1.endsWith(lookUp)).forEach(System.out::println);
+
+        /* *//*if (findSameStartEnd) { // TODO: kak zapisat' koroche?
             System.out.println(findSameStartEnd); // TODO: KAK dobavit' chtob6 v]vodil slovo?
             System.out.println(stringForStartEndsSame.startsWith(lookUp));
         } else {
             System.out.println("none");
         }
-        return findSameStartEnd;
+        return findSameStartEnd*/;
     }
 
 
     /* 1. Assume that we have sentence, find and print the longest and shortest words.
        2. Assume we have a sentence, calculate the number of some symbol that comes from method parameter in the last word.*/
 
-    /*public static void findMaxAndMinWord(String stringForMaxAndMinWord) {
-        spliterator(stringForMaxAndMinWord, " ");
-        String
+    private static void findMaxAndMinWord(String stringForMaxAndMin){
 
-    }*/
+        String[] splitSentence = stringForMaxAndMin.split(" ");
+        List<String> listSentence = Arrays.asList(splitSentence);
+
+        Optional<String> minWord = listSentence.stream().min(Comparator.comparingInt(String::length));
+        Optional<String> maxWord = listSentence.stream().max(Comparator.comparingInt(String::length));
+
+        minWord.ifPresent(word -> {
+            System.out.println("MIN word is: " + word + " " + stringForMaxAndMin.indexOf(word));
+        });
+        maxWord.ifPresent(word -> {
+            System.out.println("MAX word is: " + word +  " " + stringForMaxAndMin.indexOf(word));
+        });
+    }
 
 }
 
