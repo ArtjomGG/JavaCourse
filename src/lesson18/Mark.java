@@ -1,4 +1,4 @@
-package Lesson18;
+package lesson18;
 
 import java.util.stream.Stream;
 

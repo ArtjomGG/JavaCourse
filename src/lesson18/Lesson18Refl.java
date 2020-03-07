@@ -1,4 +1,4 @@
-package Lesson18;
+package lesson18;
 
 import lesson11.generic.EmployeeIns;
 import lesson8.L8CarState;
@@ -77,7 +77,7 @@ public class Lesson18Refl {
         System.out.println("======================================================================");
 
         Constructor<?>[] truckDeclaredlConstr2 = L8Truks.class.getDeclaredConstructors();
-        System.out.println(".getDeclaredConstructors() : " + truckDeclaredlConstr.length);
+        System.out.println(".getDeclaredConstructors() : " + truckDeclaredlConstr2.length);
         System.out.println("All Declaredl Constr : ");
         Arrays.asList(truckDeclaredlConstr).forEach(constructor -> System.out.println(constructor.getName()));
         System.out.println();
@@ -108,7 +108,7 @@ public class Lesson18Refl {
         System.out.println(" Processor Example : " );
 
         Mark markObj = new Mark();
-        MyLogProcessor.process(markObj);
+        lesson18.MyLogProcessor.process(markObj);
 
 
     }

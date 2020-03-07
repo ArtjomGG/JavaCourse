@@ -75,7 +75,7 @@ public class CarUtils {
     }
 
     public static L8CarState getCarStateRnd() {
-        int randomState = (int) (Math.random() * 5); // generit massiv
+        int randomState = (int) (Math.random() * 3+1); // generit massiv
         return L8CarState.values()[randomState]; //vozvrashaet massiv i sootvetstvenno dostup po indeksu
     }
 
